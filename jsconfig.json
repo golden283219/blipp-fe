@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "~utils/*": ["./utils/*"],
+      "~graphql/*": ["./src/graphql/*"],
+      "~images/*": ["./src/images/*"],
+      "~pages/*": ["./src/pages/*"],
+      "~components/*": ["./src/components/*"],
+      "~types": ["./src/types/index.js"],
+      "~contexts/*": ["./src/contexts/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,5 @@
+[context.production]
+  environment = { GATSBY_GRAPHQL_ENDPOINT = "https://main.orderfyapi.link:3003/graphql"}
+  
+[context.staging]
+  environment = { GATSBY_GRAPHQL_ENDPOINT = "https://main.orderfyapi.link:3001/graphql" }

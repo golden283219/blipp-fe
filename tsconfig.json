@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "~utils/*": ["./utils/*"],
+      "~graphql/*": ["./src/graphql/*"],
+      "~images/*": ["./src/images/*"],
+      "~pages/*": ["./src/pages/*"],
+      "~components/*": ["./src/components/*"],
+      "~types": ["./src/types/index.ts"],
+      "~contexts/*": ["./src/contexts/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}

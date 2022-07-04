@@ -1,0 +1,5 @@
+export enum EDeliveryType {
+  RESERVATION = 'RESERVATION',
+  DELIVERY = 'DELIVERY',
+  TAKEAWAY = 'TAKEAWAY',
+}

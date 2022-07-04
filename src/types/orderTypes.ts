@@ -1,0 +1,7 @@
+export enum OrderStatusTypes {
+  NOT_ORDERED = 'NOT_ORDERED',
+  ORDERED = 'ORDERED',
+  PREPARING = 'PREPARING',
+  DONE = 'DONE',
+  DELIVERED = 'DELIVERED',
+}

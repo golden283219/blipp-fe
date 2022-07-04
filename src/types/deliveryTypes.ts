@@ -1,0 +1,5 @@
+export const DeliveryType = {
+  RESERVATION: 'RESERVATION',
+  TAKEAWAY: 'TAKEAWAY',
+  DELIVERY: 'DELIVERY',
+};
